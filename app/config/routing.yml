@@ -1,0 +1,12 @@
+proiect_php_advanced_tema:
+    resource: "@ProiectPHPAdvancedTemaBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+
+app:
+    resource: '@AppBundle/Controller/DefaultController.php'
+    type: rest
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
